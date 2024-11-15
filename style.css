@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+/* Hero Section Styling */
+#hero {
+    height: 80vh;
+    background: url('hero-bg.avif') center center/cover no-repeat fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#hero .highlight {
+    color: #f39c12;
+} 
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#hero .btn {
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+#about h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#about img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Section */
+#projects h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#projects .card {
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+
+.skill-box {
+    margin-bottom: 2rem;
+}
+
+.skill-box h5 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.progress-bar {
+    font-size: 1rem;
+    font-weight: bold;
+    transition: width 1s ease;
+}
+
+/* Contact Section */
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm .form-control {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+}
